@@ -17,7 +17,7 @@ A simple and interactive web-based music player built with HTML, CSS, and JavaSc
 ---
 
 ## Demo 📸
-
+Open the Project click [here](https://naveenkumar-developer.github.io/musicPlayer/)
 ![music player](assets/musicPlayer.png)
 
 ---
