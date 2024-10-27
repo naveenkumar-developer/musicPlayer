@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MusicPlayer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="leftIcon">
+          <i class="fa-solid fa-arrow-left"></i>
+        </div>
+        <h1>music player</h1>
+        <div class="menuIcon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <div class="thumpNail_container">
+        <img src="assets/a boy enjoying music.png" alt="thumpnail img" />
+      </div>
+      <div class="song_details">
+        <h3>Shape Of You</h3>
+      </div>
+      <div class="audio_container">
+        <audio id="audio" >
+          <source
+            src="assets/Ed Sheeran - Shape Of You (Lyrics)(MP3_160K).mp3"
+          />
+        </audio>
+        <input id="audioTrack" type="range" value="0" class="progressBar"/>
+      </div>
+      <div class="controlls_container">
+        <div class="backwardIcon">
+          <i class="fa-solid fa-backward"></i>
+        </div>
+        <div id="playAndPauseBtn" class="playIcon">
+          <i class="fa-solid fa-play"></i>
+        </div>
+        <div class="backwardIcon">
+          <i class="fa-solid fa-forward"></i>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
